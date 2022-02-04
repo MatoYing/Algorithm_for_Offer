@@ -11,8 +11,7 @@ public class one_2 {
         思路就是将两个二进制数，分别将他们所对应的位数从低位加到高位，和正常加法一样，只不过
         是逢二进一。
      注意：
-        1.这道题不分正负数
-        2.len最大处对应数的最低位
+        1.len最大处对应数的最低位
      */
     public String addBinary(String a, String b) {
         //这个二进制不分正负数
