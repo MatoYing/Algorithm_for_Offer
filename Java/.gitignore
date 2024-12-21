@@ -1,0 +1,88 @@
+# 编译的类文件
+*.class
+
+# 包装目录
+/bin/
+/build/
+
+# Maven
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+!**/src/main/**/target/
+
+# Gradle
+.gradle/
+/build/
+build/
+
+# IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Logs
+logs/
+*.log
+
+# 运行时文件
+*.pid
+*.seed
+*.key
+
+# 环境配置文件
+.env
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# 锁文件
+*.lock
+
+# 应用配置文件
+/config/
+
+# 数据库
+*.db
+
+# IntelliJ的插件相关
+/.idea/libraries/
+/.idea/artifacts/
+
+# 本地环境配置
+*.local
+*.test
